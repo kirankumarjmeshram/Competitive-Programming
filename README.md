@@ -3,6 +3,9 @@ Data structure and algorithms- GFG
 Compitative Programming- GFG
 
 
+### 1 Mathematics
+
+
 ### 2 Bit Magic
 
 1. bitwise AND (&):
