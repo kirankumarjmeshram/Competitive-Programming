@@ -9,7 +9,7 @@ public class GetSetBit {
     public static int getFirstSetBit(int n){
             
         // Your code here
-        int count = 1;
+        int count = 1;  
         if(n==0) return 0;
         while (n > 0){
             if((n & 1) > 0) return count;
