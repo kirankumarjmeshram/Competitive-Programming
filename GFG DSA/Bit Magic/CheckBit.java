@@ -4,7 +4,7 @@
  *  Position of set bit '1' should be indexed starting 
  * with 0 from LSB side in binary representation of the number.
  * 
-*/
+*/12 => 1100 => 1*2^3+1*2^2+1*2^1+1*2^0
 public class CheckBit {
     static boolean checkKthBit(int n, int k)
     {
