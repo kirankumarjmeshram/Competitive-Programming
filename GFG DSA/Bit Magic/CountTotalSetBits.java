@@ -4,7 +4,7 @@
  */
 public class CountTotalSetBits {
 
-    /* Brute Force
+    /* Brute Force 1
      * public static int countSetBits(int n){
     
         // Your code here
@@ -18,6 +18,16 @@ public class CountTotalSetBits {
         int count = 0;
         while (i > 0){
             if((i &1) ==1){
+                count++;
+            }
+            i/=2;
+        }
+        return count;
+    }
+    //Sol2
+     int count = 0;
+        while (i > 0){
+            if(i%2 == 1) {
                 count++;
             }
             i/=2;

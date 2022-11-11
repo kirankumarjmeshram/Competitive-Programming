@@ -38,14 +38,15 @@ eg.
   3    = 000...0011
   3<<4 = 000...0110000  here y digits from fromt are removed and same amount of zeros are added in back.
   in general : 
-  x>>y => x*2^y
+  x<<y => x*2^y
 
 6. Right Shift (>>):
  Takes two numbers, right shifts the bits of the first operand (x), 
  the second operand decides the number of places to shift (y).
  33      = 00....100001
  33 >> 2 = 00....001000   here last two(y) digits are removed and same num (y) of zeros addes in front
-
+  both means same n = n/2 => n >>1
+  in simple world x>>y == x/2^y
 
 Signed right shift (>>)  
  - in case of -ve x it fills leading bits with ones 
